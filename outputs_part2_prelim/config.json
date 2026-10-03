@@ -1,0 +1,15 @@
+{
+  "BLOCK": 256,
+  "D_MODEL": 256,
+  "N_HEAD": 4,
+  "N_LAYER": 2,
+  "D_FF": 1024,
+  "DROPOUT": 0.1,
+  "BATCH": 64,
+  "LR": 0.001,
+  "WARMUP_STEPS": 200,
+  "WEIGHT_DECAY": 0.01,
+  "EPOCHS": 2,
+  "SEED": 2326,
+  "TIE_WEIGHTS": false
+}
