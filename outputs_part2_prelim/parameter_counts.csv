@@ -1,0 +1,4 @@
+tokenizer,vocab (incl. EOS),input embeddings,output layer,position embeddings,transformer layers,TOTAL,start loss should be ~ln(V)
+char,9444,2417664,2417664,65536,1580032,6480896,9.15
+bpe_2k,2001,512256,512256,65536,1580032,2670080,7.6
+bpe_10k,10001,2560256,2560256,65536,1580032,6766080,9.21
