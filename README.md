@@ -6,7 +6,7 @@ This file answers four questions: how to **train the tokenizers**, **train the m
 
 Everything is in one notebook, `Assignment1.ipynb`. Part 1 is the tokenizers, Part 2 is the language models, and the analysis for the report follows Part 2. The results are written to two folders:
 
-```
+```text
 Assignment1.ipynb
 outputs_part1/      tokenizers, tokenizer tables, Figures 1 and 2
 outputs_part2/      trained models, training logs, result tables, Figures 3 and 4
@@ -18,11 +18,12 @@ The data are **not** part of the repository. They are read from `/srv/data/lt232
 
 **Environment** (what I used): Python 3, `torch` 2.4.1 (CUDA 12.1), `tokenizers` (Hugging Face), `numpy`, `pandas`, `matplotlib`, `jupyter`. Only `torch` is a tested version; the others are not pinned.
 
-```
+```bash
 pip install --user tokenizers pandas matplotlib
 ```
-**I trained on a GTX 1080 Ti.** 
-```
+
+**I trained on a GTX 1080 Ti.**
+
 ## 1. Train the tokenizers
 
 **Notebook section:** Part 1, sections 1.1 to 1.3.
@@ -59,9 +60,9 @@ Training the tokenizers takes well under a minute.
 3. Run the **three training cells, one per tokenizer**:
 
 ```python
-   train_model("char")
-   train_model("bpe_2k")
-   train_model("bpe_10k")
+train_model("char")
+train_model("bpe_2k")
+train_model("bpe_10k")
 ```
 
    On a GTX 1080 Ti they took about 9.3, 4.4 and 4.8 minutes.
