@@ -1,4 +1,4 @@
-# Checkpoint: Multilingual tokenization and small Transformer LMs
+# Checkpoint: Assignment 1
 
 **Languages:** English (en), Turkish (tr), Mandarin Chinese (zh)
 **Status at checkpoint:** Part 1 (tokenizers and analysis) complete. Part 2 (language models) set up, training not yet finished.
