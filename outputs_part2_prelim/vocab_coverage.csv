@@ -1,0 +1,7 @@
+tokenizer,language,distinct tokens used,tokens needed for 90% of text,tokens needed for 99% of text
+bpe_2k,en,954,342,539
+bpe_2k,tr,951,389,628
+bpe_2k,zh,1763,849,1227
+bpe_10k,en,3783,1638,2836
+bpe_10k,tr,4407,1868,3231
+bpe_10k,zh,7784,3319,5447

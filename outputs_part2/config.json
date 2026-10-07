@@ -11,6 +11,5 @@
   "WEIGHT_DECAY": 0.01,
   "EPOCHS": 10,
   "SEED": 2326,
-  "TIE_WEIGHTS": false,
-  "USE_BF16": false
+  "TIE_WEIGHTS": false
 }

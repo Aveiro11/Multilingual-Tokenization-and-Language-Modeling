@@ -1,0 +1,4 @@
+tokenizer,vocab (incl. EOS),train tokens,valid tokens,steps per epoch,total steps (10 epochs)
+char,9444,8980877,1122747,548,5480
+bpe_2k,2001,6072092,760666,370,3700
+bpe_10k,10001,4305879,541486,262,2620

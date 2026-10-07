@@ -1,0 +1,13 @@
+tokenizer,category,vocab entries,% of en tokens,% of tr tokens,% of zh tokens
+bpe_2k,en-specific,141,23.8,0.5,0.2
+bpe_2k,tr-specific,243,0.6,34.8,0.0
+bpe_2k,zh-specific,1074,0.2,0.2,90.7
+bpe_2k,en+tr shared,367,70.3,59.7,2.7
+bpe_2k,other shared,108,5.1,4.7,6.4
+bpe_2k,unused,67,0.0,0.0,0.0
+bpe_10k,en-specific,1253,44.3,0.7,0.3
+bpe_10k,tr-specific,1765,0.4,50.2,0.0
+bpe_10k,zh-specific,4936,0.1,0.1,90.8
+bpe_10k,en+tr shared,1601,50.7,45.0,2.8
+bpe_10k,other shared,364,4.5,4.0,6.0
+bpe_10k,unused,81,0.0,0.0,0.0

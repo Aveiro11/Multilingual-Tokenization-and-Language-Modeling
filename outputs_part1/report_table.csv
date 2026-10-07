@@ -1,4 +1,4 @@
-Tokenizer,Language,Vocab size,Total tokens (valid),Avg tokens / sentence,Avg chars / token
+tokenizer,language,vocab_size,total_tokens,avg_tokens_per_sentence,avg_chars_per_token
 char,en,9443,368269,81.12,1.0
 char,tr,9443,368383,98.63,1.0
 char,zh,9443,368266,38.55,1.0
