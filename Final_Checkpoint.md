@@ -156,9 +156,9 @@ Other observations from the checkpoint and what happened to them:
 
 **Question:** Chinese needs more tokens than characters under BPE-2k. Does this extra cost also appear as worse language-model performance (BPC) for Chinese than under BPE-10k?
 
-**Answer: yes.** Chinese BPC is 6.575 under BPE-2k and 6.186 under BPE-10k (0.389 bits per character, 5.9%, worse), and BPE-2k is also worse than the character model (6.245) for Chinese. In the same models, English and Turkish are better under BPE-2k than under characters, so the effect is specific to Chinese. The error analysis agrees: for sentences with rare Chinese characters BPE-2k is up to 3.9 bits per character worse than the character model, because most of those characters are split into byte pieces.
+**Answer: yes.** Chinese BPC is 6.575 under BPE-2k and 6.186 under BPE-10k (0.389 bits per character, 5.9%, worse), and BPE-2k is also worse than the character model (6.245) for Chinese. In the same models, English and Turkish are better under BPE-2k than under characters, so the effect is specific to Chinese. The error analysis agrees: for sentences with rare Chinese characters BPE-2k is up to 3.9 bits per character worse than the character model because most of those characters are split into byte pieces.
 
-**Caution:** the experiment shows the association. It does not show which factor (more tokens per character, byte fragments or the shorter effective context) causes it, and every model was trained once (one seed).
+**Caution:** the experiment shows the association. It does not show which factor (more tokens per character, byte fragments or the shorter effective context) causes it and every model was trained once (one seed).
 
 ---
 
